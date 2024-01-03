@@ -3,9 +3,9 @@ package migration
 import (
 	"database/sql"
 	"errors"
-	"github.com/kabukky/journey/date"
-	"github.com/kabukky/journey/filenames"
-	"github.com/kabukky/journey/helpers"
+	"github.com/OhseyDev/spirigo/date"
+	"github.com/OhseyDev/spirigo/filenames"
+	"github.com/OhseyDev/spirigo/helpers"
 	"log"
 	"os"
 	"path/filepath"

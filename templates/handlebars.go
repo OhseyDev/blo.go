@@ -2,12 +2,12 @@ package templates
 
 import (
 	"bytes"
-	"github.com/kabukky/journey/conversion"
-	"github.com/kabukky/journey/database"
-	"github.com/kabukky/journey/date"
-	"github.com/kabukky/journey/plugins"
-	"github.com/kabukky/journey/structure"
-	"github.com/kabukky/journey/structure/methods"
+	"github.com/OhseyDev/spirigo/conversion"
+	"github.com/OhseyDev/spirigo/database"
+	"github.com/OhseyDev/spirigo/date"
+	"github.com/OhseyDev/spirigo/plugins"
+	"github.com/OhseyDev/spirigo/structure"
+	"github.com/OhseyDev/spirigo/structure/methods"
 	"html"
 	"log"
 	"net/url"

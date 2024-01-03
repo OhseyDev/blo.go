@@ -2,11 +2,11 @@ package methods
 
 import (
 	"encoding/json"
-	"github.com/kabukky/journey/configuration"
-	"github.com/kabukky/journey/database"
-	"github.com/kabukky/journey/date"
-	"github.com/kabukky/journey/slug"
-	"github.com/kabukky/journey/structure"
+	"github.com/OhseyDev/spirigo/configuration"
+	"github.com/OhseyDev/spirigo/database"
+	"github.com/OhseyDev/spirigo/date"
+	"github.com/OhseyDev/spirigo/slug"
+	"github.com/OhseyDev/spirigo/structure"
 	"log"
 )
 
