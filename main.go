@@ -16,7 +16,7 @@ import (
 	"github.com/OhseyDev/spirigo/plugins"
 	"github.com/OhseyDev/spirigo/server"
 	"github.com/OhseyDev/spirigo/structure/methods"
-	"github.com/OhseyDev/spirigotemplates"
+	"github.com/OhseyDev/spirigo/templates"
 )
 
 func httpsRedirect(w http.ResponseWriter, r *http.Request, _ map[string]string) {
