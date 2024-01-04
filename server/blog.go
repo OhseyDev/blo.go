@@ -7,10 +7,10 @@ import (
 	"strconv"
 
 	"github.com/dimfeld/httptreemux"
-	"github.com/OhseyDev/spirigo/database"
-	"github.com/OhseyDev/spirigo/filenames"
-	"github.com/OhseyDev/spirigo/structure/methods"
-	"github.com/OhseyDev/spirigo/templates"
+	"github.com/OhseyDev/gospirit/database"
+	"github.com/OhseyDev/gospirit/filenames"
+	"github.com/OhseyDev/gospirit/structure/methods"
+	"github.com/OhseyDev/gospirit/templates"
 )
 
 func indexHandler(w http.ResponseWriter, r *http.Request, params map[string]string) {

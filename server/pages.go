@@ -2,8 +2,8 @@ package server
 
 import (
 	"github.com/dimfeld/httptreemux"
-	"github.com/OhseyDev/spirigo/filenames"
-	"github.com/OhseyDev/spirigo/helpers"
+	"github.com/OhseyDev/gospirit/filenames"
+	"github.com/OhseyDev/gospirit/helpers"
 	"net/http"
 	"path/filepath"
 	"strings"

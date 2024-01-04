@@ -3,8 +3,8 @@ package https
 import (
 	"net/http"
 
-	"github.com/OhseyDev/spirigo/configuration"
-	"github.com/OhseyDev/spirigo/filenames"
+	"github.com/OhseyDev/gospirit/configuration"
+	"github.com/OhseyDev/gospirit/filenames"
 )
 
 func StartServer(addr string, handler http.Handler) error {

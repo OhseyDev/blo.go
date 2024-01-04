@@ -2,12 +2,12 @@ package templates
 
 import (
 	"bytes"
-	"github.com/OhseyDev/spirigo/conversion"
-	"github.com/OhseyDev/spirigo/database"
-	"github.com/OhseyDev/spirigo/date"
-	"github.com/OhseyDev/spirigo/plugins"
-	"github.com/OhseyDev/spirigo/structure"
-	"github.com/OhseyDev/spirigo/structure/methods"
+	"github.com/OhseyDev/gospirit/conversion"
+	"github.com/OhseyDev/gospirit/database"
+	"github.com/OhseyDev/gospirit/date"
+	"github.com/OhseyDev/gospirit/plugins"
+	"github.com/OhseyDev/gospirit/structure"
+	"github.com/OhseyDev/gospirit/structure/methods"
 	"html"
 	"log"
 	"net/url"

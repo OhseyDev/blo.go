@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/OhseyDev/spirigo/configuration"
-	"github.com/OhseyDev/spirigo/filenames"
+	"github.com/OhseyDev/gospirit/configuration"
+	"github.com/OhseyDev/gospirit/filenames"
 	"golang.org/x/crypto/acme/autocert"
 )
 

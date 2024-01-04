@@ -3,10 +3,10 @@ package templates
 import (
 	"bytes"
 	"github.com/kabukky/feeds"
-	"github.com/OhseyDev/spirigo/database"
-	"github.com/OhseyDev/spirigo/date"
-	"github.com/OhseyDev/spirigo/structure"
-	"github.com/OhseyDev/spirigo/structure/methods"
+	"github.com/OhseyDev/gospirit/database"
+	"github.com/OhseyDev/gospirit/date"
+	"github.com/OhseyDev/gospirit/structure"
+	"github.com/OhseyDev/gospirit/structure/methods"
 	"net/http"
 )
 

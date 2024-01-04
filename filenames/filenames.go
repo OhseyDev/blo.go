@@ -1,7 +1,7 @@
 package filenames
 
 import (
-	"github.com/OhseyDev/spirigo/flags"
+	"github.com/OhseyDev/gospirit/flags"
 	"github.com/kardianos/osext"
 	"log"
 	"os"

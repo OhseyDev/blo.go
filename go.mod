@@ -1,4 +1,4 @@
-module github.com/OhseyDev/spirigo
+module github.com/OhseyDev/gospirit
 
 go 1.18
 

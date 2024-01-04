@@ -3,8 +3,8 @@
 package plugins
 
 import (
-	"github.com/OhseyDev/spirigo/structure"
-	"github.com/OhseyDev/spirigo/structure/methods"
+	"github.com/OhseyDev/gospirit/structure"
+	"github.com/OhseyDev/gospirit/structure/methods"
 	"github.com/yuin/gopher-lua"
 )
 

@@ -1,7 +1,7 @@
 package watcher
 
 import (
-	"github.com/OhseyDev/spirigo/helpers"
+	"github.com/OhseyDev/gospirit/helpers"
 	"gopkg.in/fsnotify.v1"
 	"log"
 	"os"

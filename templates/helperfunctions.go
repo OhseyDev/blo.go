@@ -1,7 +1,7 @@
 package templates
 
 import (
-	"github.com/OhseyDev/spirigo/structure"
+	"github.com/OhseyDev/gospirit/structure"
 )
 
 var helperFuctions = map[string]func(*structure.Helper, *structure.RequestData) []byte{

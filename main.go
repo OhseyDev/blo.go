@@ -8,15 +8,15 @@ import (
 	"strings"
 
 	"github.com/dimfeld/httptreemux"
-	"github.com/OhseyDev/spirigo/configuration"
-	"github.com/OhseyDev/spirigo/database"
-	"github.com/OhseyDev/spirigo/filenames"
-	"github.com/OhseyDev/spirigo/flags"
-	"github.com/OhseyDev/spirigo/https"
-	"github.com/OhseyDev/spirigo/plugins"
-	"github.com/OhseyDev/spirigo/server"
-	"github.com/OhseyDev/spirigo/structure/methods"
-	"github.com/OhseyDev/spirigo/templates"
+	"github.com/OhseyDev/gospirit/configuration"
+	"github.com/OhseyDev/gospirit/database"
+	"github.com/OhseyDev/gospirit/filenames"
+	"github.com/OhseyDev/gospirit/flags"
+	"github.com/OhseyDev/gospirit/https"
+	"github.com/OhseyDev/gospirit/plugins"
+	"github.com/OhseyDev/gospirit/server"
+	"github.com/OhseyDev/gospirit/structure/methods"
+	"github.com/OhseyDev/gospirit/templates"
 )
 
 func httpsRedirect(w http.ResponseWriter, r *http.Request, _ map[string]string) {

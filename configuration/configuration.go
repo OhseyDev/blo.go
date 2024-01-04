@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/OhseyDev/spirigo/filenames"
+	"github.com/OhseyDev/gospirit/filenames"
 )
 
 // Configuration: settings that are neccesary for server configuration

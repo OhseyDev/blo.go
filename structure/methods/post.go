@@ -1,9 +1,9 @@
 package methods
 
 import (
-	"github.com/OhseyDev/spirigo/database"
-	"github.com/OhseyDev/spirigo/date"
-	"github.com/OhseyDev/spirigo/structure"
+	"github.com/OhseyDev/gospirit/database"
+	"github.com/OhseyDev/gospirit/date"
+	"github.com/OhseyDev/gospirit/structure"
 	"log"
 )
 

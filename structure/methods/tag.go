@@ -1,8 +1,8 @@
 package methods
 
 import (
-	"github.com/OhseyDev/spirigo/slug"
-	"github.com/OhseyDev/spirigo/structure"
+	"github.com/OhseyDev/gospirit/slug"
+	"github.com/OhseyDev/gospirit/structure"
 	"strings"
 )
 

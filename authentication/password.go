@@ -1,7 +1,7 @@
 package authentication
 
 import (
-	"github.com/OhseyDev/spirigo/database"
+	"github.com/OhseyDev/gospirit/database"
 	"golang.org/x/crypto/bcrypt"
 )
 

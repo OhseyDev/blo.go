@@ -3,7 +3,7 @@ package database
 import (
 	"database/sql"
 	"encoding/json"
-	"github.com/OhseyDev/spirigo/structure"
+	"github.com/OhseyDev/gospirit/structure"
 	"time"
 )
 

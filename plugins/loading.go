@@ -4,8 +4,8 @@ package plugins
 
 import (
 	"errors"
-	"github.com/OhseyDev/spirigo/filenames"
-	"github.com/OhseyDev/spirigo/structure"
+	"github.com/OhseyDev/gospirit/filenames"
+	"github.com/OhseyDev/gospirit/structure"
 	"github.com/yuin/gopher-lua"
 	"log"
 	"os"

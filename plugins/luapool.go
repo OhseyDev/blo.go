@@ -3,7 +3,7 @@
 package plugins
 
 import (
-	"github.com/OhseyDev/spirigo/structure"
+	"github.com/OhseyDev/gospirit/structure"
 	"github.com/yuin/gopher-lua"
 	"sync"
 )

@@ -2,11 +2,11 @@ package methods
 
 import (
 	"encoding/json"
-	"github.com/OhseyDev/spirigo/configuration"
-	"github.com/OhseyDev/spirigo/database"
-	"github.com/OhseyDev/spirigo/date"
-	"github.com/OhseyDev/spirigo/slug"
-	"github.com/OhseyDev/spirigo/structure"
+	"github.com/OhseyDev/gospirit/configuration"
+	"github.com/OhseyDev/gospirit/database"
+	"github.com/OhseyDev/gospirit/date"
+	"github.com/OhseyDev/gospirit/slug"
+	"github.com/OhseyDev/gospirit/structure"
 	"log"
 )
 

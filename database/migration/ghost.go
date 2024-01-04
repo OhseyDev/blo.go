@@ -3,9 +3,9 @@ package migration
 import (
 	"database/sql"
 	"errors"
-	"github.com/OhseyDev/spirigo/date"
-	"github.com/OhseyDev/spirigo/filenames"
-	"github.com/OhseyDev/spirigo/helpers"
+	"github.com/OhseyDev/gospirit/date"
+	"github.com/OhseyDev/gospirit/filenames"
+	"github.com/OhseyDev/gospirit/helpers"
 	"log"
 	"os"
 	"path/filepath"

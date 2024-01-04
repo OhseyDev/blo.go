@@ -1,7 +1,7 @@
 package slug
 
 import (
-	"github.com/OhseyDev/spirigo/database"
+	"github.com/OhseyDev/gospirit/database"
 	"regexp"
 	"strconv"
 	"strings"

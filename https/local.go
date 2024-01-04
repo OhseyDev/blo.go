@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/kabukky/httpscerts"
-	"github.com/OhseyDev/spirigo/configuration"
-	"github.com/OhseyDev/spirigo/filenames"
+	"github.com/OhseyDev/gospirit/configuration"
+	"github.com/OhseyDev/gospirit/filenames"
 )
 
 func checkCertificates() {
