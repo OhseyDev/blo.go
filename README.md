@@ -1,4 +1,4 @@
-# spirigo
+# gospirit
 
 A blog engine written in Go, compatible with Ghost themes. Forked from <https://github.com/kabukky/journey/>
 
