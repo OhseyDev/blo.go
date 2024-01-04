@@ -2,7 +2,7 @@
 TODO.txt
 
 # Built binary
-journey
+spirigo
 
 # Log file
 log.txt
@@ -55,6 +55,8 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+vendor/
 
 # Sublime Text
 # cache files for sublime text
