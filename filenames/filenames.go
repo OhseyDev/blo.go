@@ -10,7 +10,6 @@ import (
 )
 
 var (
-	// Determine the path the Journey executable is in - needed to load relative assets
 	ExecutablePath = determineExecutablePath()
 
 	// Determine the path to the assets folder (default: Journey root folder)
@@ -47,7 +46,6 @@ var (
 )
 
 func init() {
-	// Create content directories if they are not created already
 	err := createDirectories()
 	if err != nil {
 		log.Fatal("Error: Couldn't create directories:", err)
@@ -88,7 +86,6 @@ func determineAssetPath() string {
 }
 
 func determineExecutablePath() string {
-	// Get the path this executable is located in
 	executablePath, err := osext.ExecutableFolder()
 	if err != nil {
 		log.Fatal("Error: Couldn't determine what directory this executable is in:", err)

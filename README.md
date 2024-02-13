@@ -8,4 +8,4 @@ Compatible with Ghost themes.
 
 ## About
 
-The version of Journey that this project was forked from was incredibly broken with the latest version of Go. Our first task is to get it to compile.
+The original project was unmaintained and inactive.
