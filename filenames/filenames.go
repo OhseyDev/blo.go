@@ -37,18 +37,18 @@ var (
 
 	// For blog  (this is a url string)
 	// TODO: This is not used at the moment because it is still hard-coded into the create database string
-	DefaultBlogLogoFilename  = "/public/images/blog-logo.jpg"
-	DefaultBlogCoverFilename = "/public/images/blog-cover.jpg"
+	DefaultBlogLogoFilename  = "/public/images/blog-logo.png"
+	DefaultBlogCoverFilename = "/public/images/blog-cover.png"
 
 	// For users (this is a url string)
-	DefaultUserImageFilename = "/public/images/user-image.jpg"
-	DefaultUserCoverFilename = "/public/images/user-cover.jpg"
+	DefaultUserImageFilename = "/public/images/user-image.png"
+	DefaultUserCoverFilename = "/public/images/user-cover.png"
 )
 
 func init() {
 	err := createDirectories()
 	if err != nil {
-		log.Fatal("Error: Couldn't create directories:", err)
+		log.Fatal("Error! Couldn't create directories: ", err)
 	}
 
 }
@@ -78,7 +78,7 @@ func determineAssetPath() string {
 	if flags.CustomPath != "" {
 		contentPath, err := filepath.Abs(bashPath(flags.CustomPath))
 		if err != nil {
-			log.Fatal("Error: Couldn't read from custom path:", err)
+			log.Fatal("Error! Couldn't read from custom path: ", err)
 		}
 		return contentPath
 	}
@@ -88,7 +88,7 @@ func determineAssetPath() string {
 func determineExecutablePath() string {
 	executablePath, err := osext.ExecutableFolder()
 	if err != nil {
-		log.Fatal("Error: Couldn't determine what directory this executable is in:", err)
+		log.Fatal("Error! Couldn't determine what directory this executable is in: ", err)
 	}
 	return executablePath
 }

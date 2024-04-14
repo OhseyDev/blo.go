@@ -77,7 +77,7 @@ func main() {
 		httpsPort = components[0] + flags.HttpsPort
 	}
 	httpRouter := httptreemux.New()
-	httpsRouter := nil
+	httpsRouter := httptreemux.New()
 	
 	server.InitializeBlog(httpRouter)
 	server.InitializePages(httpRouter)

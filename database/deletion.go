@@ -30,3 +30,4 @@ func DeletePostById(id int64) error {
 	}
 	return writeDB.Commit()
 }
+

@@ -20,8 +20,8 @@ func Generate(input string, table string) string {
 			return -1
 		}
 	}, strings.ToLower(strings.TrimSpace(input))), "-")
-	// Maximum of 75 characters for slugs right now
-	maxLength := 75
+	// Maximum of 128 characters for slugs right now
+	maxLength := 128
 	if len([]rune(output)) > maxLength {
 		runes := []rune(output)[:maxLength]
 		// Try to cut at '-' until length of (maxLength - (maxLength / 2)) characters
