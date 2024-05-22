@@ -93,12 +93,16 @@ func main() {
 		server.InitializeAdmin(httpsRouter)
 		log.Println("Starting https server on port " + httpsPort + "...")
 		go func() {
-			if err := https.StartServer(httpsPort, httpsRouter); err != nil {
+			chain := alice.New(server.CheckHost).Then(httpsRouter)
+			err := http.ListenAndServeTLS(httpsPort, filenames.HttpsCertFilename, filenames.HttpsKeyFilename, chain)
+			if err != nil {
 				log.Fatal("Error: Couldn't start the HTTPS server:", err)
 			}
 		}()
 		log.Println("Starting http server on port " + httpPort + "...")
-		if err := http.ListenAndServe(httpPort, httpRouter); err != nil {
+		chain := alice.New(server.CheckHost).Then(httpRouter)
+		err := http.ListenAndServe(httpPort, chain)
+		if err != nil {
 			log.Fatal("Error: Couldn't start the HTTP server:", err)
 		}
 	case "All":
@@ -110,19 +114,25 @@ func main() {
 		httpRouter.GET("/*path", httpsRedirect)
 		log.Println("Starting https server on port " + httpsPort + "...")
 		go func() {
-			if err := https.StartServer(httpsPort, httpsRouter); err != nil {
+			chain := alice.New(server.CheckHost).Then(httpsRouter)
+			err := http.ListenAndServeTLS(httpsPort, filenames.HttpsCertFilename, filenames.HttpsKeyFilename, chain)
+			if err != nil {
 				log.Fatal("Error: Couldn't start the HTTPS server:", err)
 			}
 		}()
 		log.Println("Starting http server on port " + httpPort + "...")
-		if err := http.ListenAndServe(httpPort, httpRouter); err != nil {
+		chain := alice.New(server.CheckHost).Then(httpRouter)
+		err := http.ListenAndServe(httpPort, chain)
+		if err != nil {
 			log.Fatal("Error: Couldn't start the HTTP server:", err)
 		}
 	default:
 		server.InitializeAdmin(httpRouter)
 		log.Println("Starting server without HTTPS support. Please enable HTTPS in " + filenames.ConfigFilename + " to improve security.")
 		log.Println("Starting http server on port " + httpPort + "...")
-		if err := http.ListenAndServe(httpPort, httpRouter); err != nil {
+		chain := alice.New(server.CheckHost).Then(httpRouter)
+		err := http.ListenAndServe(httpPort, chain)
+		if err != nil {
 			log.Fatal("Error: Couldn't start the HTTP server:", err)
 		}
 	}
