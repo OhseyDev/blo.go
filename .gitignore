@@ -3,6 +3,7 @@ TODO.txt
 
 # Built binary
 gospirit
+gospirit.exe
 
 # Log file
 log.txt
@@ -88,3 +89,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+.idea

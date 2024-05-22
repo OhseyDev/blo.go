@@ -17,6 +17,7 @@ import (
 	"github.com/OhseyDev/gospirit/server"
 	"github.com/OhseyDev/gospirit/structure/methods"
 	"github.com/OhseyDev/gospirit/templates"
+	"github.com/justinas/alice"
 )
 
 func httpsRedirect(w http.ResponseWriter, r *http.Request, _ map[string]string) {

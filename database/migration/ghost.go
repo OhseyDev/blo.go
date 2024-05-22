@@ -39,7 +39,7 @@ type dateHolder struct {
 	lastLogin   *time.Time
 }
 
-// Function to convert a Ghost database to use with Journey
+// Ghost: Function to convert a Ghost database to use with Journey
 func Ghost() {
 	// Check every file in data directory
 	err := filepath.Walk(filenames.DatabaseFilepath, inspectDatabaseFile)
@@ -59,7 +59,7 @@ func inspectDatabaseFile(filePath string, info os.FileInfo, err error) error {
 	return nil
 }
 
-// This function converts all fields in the Ghost db that are not compatible with Journey (only date fields for now. Ghost uses a javascript-specific unix timestamp).
+// convertGhostDatabase: This function converts all fields in the Ghost db that are not compatible with Journey (only date fields for now. Ghost uses a javascript-specific unix timestamp).
 func convertGhostDatabase(fileName string) error {
 	// If journey.db exists already, don't convert this file
 	if helpers.FileExists(filenames.DatabaseFilename) {

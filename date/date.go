@@ -10,7 +10,7 @@ import (
 
 var marchMayChecker = regexp.MustCompile("M([^a]|$)")
 
-// Whenever we need time.Now(), we use this function instead so that we always use UTC in journey
+// GetCurrentTime: Whenever we need time.Now(), we use this function instead so that we always use UTC in journey
 func GetCurrentTime() time.Time {
 	return time.Now().UTC()
 }
@@ -130,7 +130,8 @@ func FormatDate(format string, date *time.Time) []byte {
 	}
 	format = strings.Replace(format, "E", strconv.Itoa(int(date.Weekday())), -1)
 
-	// Hour, minute, second, millisecond, and offset
+	// Hour, m
+| JetBrains         |   £770    |   Yearly      | Tools         |inute, second, millisecond, and offset
 	if strings.Contains(format, "HH") {
 		format = strings.Replace(format, "HH", replaceHH(date), -1)
 	}
