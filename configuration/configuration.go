@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/OhseyDev/gospirit/filenames"
+	"github.com/RefTheCord/gospirit/filenames"
 )
 
 type Configuration struct {

@@ -3,7 +3,7 @@ package database
 import (
 	"database/sql"
 	"encoding/json"
-	"github.com/OhseyDev/gospirit/structure"
+	"github.com/RefTheCord/gospirit/structure"
 	"time"
 )
 

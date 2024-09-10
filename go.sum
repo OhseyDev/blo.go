@@ -1,3 +1,5 @@
+github.com/OhseyDev/gospirit v0.0.0-20240522155430-410c1af697fa h1:3EwlwpDkW25CxCfHSYArOwhLbiMYzcVp64ASTCHnAZc=
+github.com/OhseyDev/gospirit v0.0.0-20240522155430-410c1af697fa/go.mod h1:iQHMDqRlaEOnql1diS+8aQSwbHrGuRvHBbzSonAY+vw=
 github.com/dimfeld/httptreemux v5.0.1+incompatible h1:Qj3gVcDNoOthBAqftuD596rm4wg/adLLz5xh5CmpiCA=
 github.com/dimfeld/httptreemux v5.0.1+incompatible/go.mod h1:rbUlSV+CCpv/SuqUTP/8Bk2O3LyUV436/yaRGkhP6Z0=
 github.com/fsnotify/fsnotify v1.7.0 h1:8JEhPFa5W2WU7YfeZzPNqzMP6Lwt7L2715Ggo0nosvA=
@@ -5,6 +7,8 @@ github.com/fsnotify/fsnotify v1.7.0/go.mod h1:40Bi/Hjc2AVfZrqy+aj+yEI+/bRxZnMJyT
 github.com/google/gofuzz v1.2.0 h1:xRy4A+RhZaiKjJ1bPfwQ8sedCA+YS2YcCHW6ec7JMi0=
 github.com/gorilla/securecookie v1.1.2 h1:YCIWL56dvtr73r6715mJs5ZvhtnY73hBvEF8kXD8ePA=
 github.com/gorilla/securecookie v1.1.2/go.mod h1:NfCASbcHqRSY+3a8tlWJwsQap2VX5pwzwo4h3eOamfo=
+github.com/justinas/alice v1.2.0 h1:+MHSA/vccVCF4Uq37S42jwlkvI2Xzl7zTPCN5BnZNVo=
+github.com/justinas/alice v1.2.0/go.mod h1:fN5HRH/reO/zrUflLfTN43t3vXvKzvZIENsNEe7i7qA=
 github.com/kabukky/feeds v0.0.0-20151110114325-c7025aca4568 h1:VWc2wnokzqe0l2lW1qs6ZycpWZVWOnOs2qn/WBxfnck=
 github.com/kabukky/feeds v0.0.0-20151110114325-c7025aca4568/go.mod h1:x0Ti9biSLRX6JqX2SWBS58Iz4C3oF902BN/L3tubZHg=
 github.com/kabukky/httpscerts v0.0.0-20150320125433-617593d7dcb3 h1:Iy7Ifq2ysilWU4QlCx/97OoI4xT1IV7i8byT/EyIT/M=

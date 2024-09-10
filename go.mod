@@ -1,4 +1,4 @@
-module github.com/OhseyDev/gospirit
+module github.com/RefTheCord/gospirit
 
 go 1.18
 
@@ -18,6 +18,7 @@ require (
 
 require (
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
+	github.com/justinas/alice v1.2.0 // indirect
 	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect

@@ -1,7 +1,7 @@
 package filenames
 
 import (
-	"github.com/OhseyDev/gospirit/flags"
+	"github.com/RefTheCord/gospirit/flags"
 	"log"
 	"os"
 	"path/filepath"

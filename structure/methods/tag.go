@@ -1,8 +1,8 @@
 package methods
 
 import (
-	"github.com/OhseyDev/gospirit/slug"
-	"github.com/OhseyDev/gospirit/structure"
+	"github.com/RefTheCord/gospirit/slug"
+	"github.com/RefTheCord/gospirit/structure"
 	"strings"
 )
 

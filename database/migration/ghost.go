@@ -3,9 +3,9 @@ package migration
 import (
 	"database/sql"
 	"errors"
-	"github.com/OhseyDev/gospirit/date"
-	"github.com/OhseyDev/gospirit/filenames"
-	"github.com/OhseyDev/gospirit/helpers"
+	"github.com/RefTheCord/gospirit/date"
+	"github.com/RefTheCord/gospirit/filenames"
+	"github.com/RefTheCord/gospirit/helpers"
 	"log"
 	"os"
 	"path/filepath"

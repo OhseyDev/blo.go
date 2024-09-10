@@ -1,7 +1,7 @@
 package authentication
 
 import (
-	"github.com/OhseyDev/gospirit/database"
+	"github.com/RefTheCord/gospirit/database"
 	"golang.org/x/crypto/bcrypt"
 )
 

@@ -3,8 +3,8 @@
 package plugins
 
 import (
-	"github.com/OhseyDev/gospirit/structure"
-	"github.com/OhseyDev/gospirit/structure/methods"
+	"github.com/RefTheCord/gospirit/structure"
+	"github.com/RefTheCord/gospirit/structure/methods"
 	"github.com/yuin/gopher-lua"
 )
 

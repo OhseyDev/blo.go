@@ -131,7 +131,7 @@ func FormatDate(format string, date *time.Time) []byte {
 	format = strings.Replace(format, "E", strconv.Itoa(int(date.Weekday())), -1)
 
 	// Hour, m
-| JetBrains         |   £770    |   Yearly      | Tools         |inute, second, millisecond, and offset
+
 	if strings.Contains(format, "HH") {
 		format = strings.Replace(format, "HH", replaceHH(date), -1)
 	}

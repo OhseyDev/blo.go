@@ -3,7 +3,7 @@
 package plugins
 
 import (
-	"github.com/OhseyDev/gospirit/structure"
+	"github.com/RefTheCord/gospirit/structure"
 	"errors"
 	"sync"
 )

@@ -4,8 +4,8 @@ package plugins
 
 import (
 	"errors"
-	"github.com/OhseyDev/gospirit/filenames"
-	"github.com/OhseyDev/gospirit/structure"
+	"github.com/RefTheCord/gospirit/filenames"
+	"github.com/RefTheCord/gospirit/structure"
 	"github.com/yuin/gopher-lua"
 	"log"
 	"os"

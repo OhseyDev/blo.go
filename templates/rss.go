@@ -3,10 +3,10 @@ package templates
 import (
 	"bytes"
 	"github.com/kabukky/feeds"
-	"github.com/OhseyDev/gospirit/database"
-	"github.com/OhseyDev/gospirit/date"
-	"github.com/OhseyDev/gospirit/structure"
-	"github.com/OhseyDev/gospirit/structure/methods"
+	"github.com/RefTheCord/gospirit/database"
+	"github.com/RefTheCord/gospirit/date"
+	"github.com/RefTheCord/gospirit/structure"
+	"github.com/RefTheCord/gospirit/structure/methods"
 	"net/http"
 )
 

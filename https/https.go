@@ -3,8 +3,8 @@ package https
 import (
 	"net/http"
 
-	"github.com/OhseyDev/gospirit/configuration"
-	"github.com/OhseyDev/gospirit/filenames"
+	"github.com/RefTheCord/gospirit/configuration"
+	"github.com/RefTheCord/gospirit/filenames"
 )
 
 func StartServer(addr string, handler http.Handler) error {

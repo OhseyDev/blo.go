@@ -2,11 +2,11 @@ package methods
 
 import (
 	"encoding/json"
-	"github.com/OhseyDev/gospirit/configuration"
-	"github.com/OhseyDev/gospirit/database"
-	"github.com/OhseyDev/gospirit/date"
-	"github.com/OhseyDev/gospirit/slug"
-	"github.com/OhseyDev/gospirit/structure"
+	"github.com/RefTheCord/gospirit/configuration"
+	"github.com/RefTheCord/gospirit/database"
+	"github.com/RefTheCord/gospirit/date"
+	"github.com/RefTheCord/gospirit/slug"
+	"github.com/RefTheCord/gospirit/structure"
 	"log"
 )
 

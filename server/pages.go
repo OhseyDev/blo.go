@@ -2,8 +2,8 @@ package server
 
 import (
 	"github.com/dimfeld/httptreemux"
-	"github.com/OhseyDev/gospirit/filenames"
-	"github.com/OhseyDev/gospirit/helpers"
+	"github.com/RefTheCord/gospirit/filenames"
+	"github.com/RefTheCord/gospirit/helpers"
 	"net/http"
 	"path/filepath"
 	"strings"

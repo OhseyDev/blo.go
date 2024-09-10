@@ -2,12 +2,12 @@ package templates
 
 import (
 	"bytes"
-	"github.com/OhseyDev/gospirit/conversion"
-	"github.com/OhseyDev/gospirit/database"
-	"github.com/OhseyDev/gospirit/date"
-	"github.com/OhseyDev/gospirit/plugins"
-	"github.com/OhseyDev/gospirit/structure"
-	"github.com/OhseyDev/gospirit/structure/methods"
+	"github.com/RefTheCord/gospirit/conversion"
+	"github.com/RefTheCord/gospirit/database"
+	"github.com/RefTheCord/gospirit/date"
+	"github.com/RefTheCord/gospirit/plugins"
+	"github.com/RefTheCord/gospirit/structure"
+	"github.com/RefTheCord/gospirit/structure/methods"
 	"html"
 	"log"
 	"net/url"

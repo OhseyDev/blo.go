@@ -3,11 +3,11 @@ package database
 import (
 	"database/sql"
 
-	"github.com/OhseyDev/gospirit/database/migration"
-	"github.com/OhseyDev/gospirit/date"
-	"github.com/OhseyDev/gospirit/filenames"
-	"github.com/OhseyDev/gospirit/helpers"
-	"github.com/OhseyDev/gospirit/structure"
+	"github.com/RefTheCord/gospirit/database/migration"
+	"github.com/RefTheCord/gospirit/date"
+	"github.com/RefTheCord/gospirit/filenames"
+	"github.com/RefTheCord/gospirit/helpers"
+	"github.com/RefTheCord/gospirit/structure"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/satori/go.uuid"
 )
